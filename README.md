@@ -17,10 +17,12 @@ Examine the effectiveness of study methods (coaching, group study, online videos
 Provide an interactive dashboard with slicers so a non-technical viewer can filter and explore without touching raw data.
 
 ##  🛠 Tools & Technologies Used
-Tool                   |	Purpose
-Microsoft Excel        |	Data cleaning, analysis, dashboard build
-Pivot Tables	         | Aggregation by category (study method, school type, grade)
-Pivot Charts           |	Visualisation of trends and comparisons
-IF / IFS, XLOOKUP      |	Risk flagging and category lookups
-Conditional Formatting |	Visual flagging of at-risk students
-Slicers	               | Interactive filtering
+------------------------------------------------------------------------------------
+|Tool                   |	Purpose                                                   |
+|-----------------------|-----------------------------------------------------------|
+|Microsoft Excel        |	Data cleaning, analysis, dashboard build                  |
+|Pivot Tables	          | Aggregation by category (study method, school type, grade)|
+|Pivot Charts           |	Visualisation of trends and comparisons                   |
+|IF / IFS, XLOOKUP      |	Risk flagging and category lookups                        |
+|Conditional Formatting |	Visual flagging of at-risk students                       |
+|Slicers	              | Interactive filtering                                     |
