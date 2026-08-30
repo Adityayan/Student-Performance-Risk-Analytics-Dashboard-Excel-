@@ -55,12 +55,12 @@ student-performance-dashboard/
 ```
 
 ## 🚀 How to Use
-
+```
 1️⃣ Download or clone the repository 
 2️⃣ Open student_performance_dashboard.xlsx 
 3️⃣ Use the slicers on the Dashboard sheet to filter by gender, school type, or study method 
 4️⃣ Explore the Risk Flag view to see which students are highlighted
-
+```
 ## 📌 Future Improvements
 - Rebuild the risk score with a weighted formula instead of a single threshold
 - Add a Power BI version for richer interactivity
