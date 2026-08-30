@@ -26,3 +26,49 @@ Provide an interactive dashboard with slicers so a non-technical viewer can filt
 |IF / IFS, XLOOKUP      |	Risk flagging and category lookups                        |
 |Conditional Formatting |	Visual flagging of at-risk students                       |
 |Slicers	              | Interactive filtering                                     |
+
+## 📂 Dataset
+**Total Records:** ~25,000 students
+**Columns:** 16 — demographics (age, gender, school_type, parent_education), behavior (study_hours, attendance_percentage, internet_access, travel_time, extra_activities, study_method), and outcomes (math/science/english/overall score, final_grade)
+**Data quality note:** raw data contained duplicate student_id entries, handled during cleaning — see Data Cleaning section below.
+
+## 📈 Dashboard Features
+**KPI Overview:** Average overall score, % of students flagged at-risk, overall pass rate.
+**Performance by Study Method:** Average scores compared across coaching, group study, textbook, online videos, notes, mixed.
+**Attendance vs. Score:** Relationship between attendance percentage and outcomes.
+**Grade Distribution:** Breakdown of final grades (a–f) by school type and parental education.
+**Risk Flag View:** Conditionally formatted table highlighting at-risk students.
+**Interactive Filters:** Slicers for gender, school type, and study method.
+
+## 📁 Project Structure
+student-performance-dashboard/ 
+│
+├── 📁 Raw_data/
+│   └── student_performance_dashboard.xlsx   # Main file: dashboard, pivot tables, cleaned data
+│
+├── 📁 Images/
+│   ├── dashboard_preview.png                # Main dashboard screenshot
+│   └── filtered_view.png                    # Example of slicers in use
+│
+├── README.md                                # This file
+
+
+## 🚀 How to Use
+
+1️⃣ Download or clone the repository 
+2️⃣ Open student_performance_dashboard.xlsx 
+3️⃣ Use the slicers on the Dashboard sheet to filter by gender, school type, or study method 
+4️⃣ Explore the Risk Flag view to see which students are highlighted
+
+## 📌 Future Improvements
+- Rebuild the risk score with a weighted formula instead of a single threshold
+- Add a Power BI version for richer interactivity
+- Bring in a second term's data to test whether risk flags predict actual outcomes
+
+## 👤 Author
+
+Adityayan Bhardwaj, Data Analyst (Fresher) | M.Sc. Physics, transitioning into data analytics. Comfortable across Excel, SQL, Power BI/Tableau, and Python.
+
+## ⚖️ License
+
+Free to use and adapt for learning purposes, with credit to the original author.
