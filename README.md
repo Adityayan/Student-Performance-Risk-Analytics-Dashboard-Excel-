@@ -41,7 +41,7 @@ Provide an interactive dashboard with slicers so a non-technical viewer can filt
 **Interactive Filters:** Slicers for gender, school type, and study method.
 
 ## 📁 Project Structure
-
+```
 student-performance-dashboard/ 
 │
 ├── 📁 Raw_data/
@@ -52,7 +52,7 @@ student-performance-dashboard/
 │   └── filtered_view.png                    # Example of slicers in use
 │
 ├── README.md                                # This file
-
+```
 
 ## 🚀 How to Use
 
