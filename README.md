@@ -45,7 +45,9 @@ Provide an interactive dashboard with slicers so a non-technical viewer can filt
 student-performance-dashboard/ 
 │
 ├── 📁 Raw_data/
-│   └── student_performance_dashboard.xlsx   # Main file: dashboard, pivot tables, cleaned data
+│   └── student_performance.csv
+├── 📁 Dashboard/
+│       └── student_performance_working.xlsx   # Main file: dashboard, pivot tables, cleaned data
 │
 ├── 📁 Images/
 │   ├── dashboard_preview.png                # Main dashboard screenshot
